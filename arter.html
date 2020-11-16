@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Bootstrap: CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Bootstrap: JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- Google Fonts: Arvo & Open Sans -->
+	<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+	<link rel="icon" href="favicon.ico" type="image" sizes="16x16">
+
+	<title>Unfrogettable - Arter</title>
+</head>
+
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Gå högst upp">Top</button>
+	<section id="titel">
+		<div class="container-fluid">
+			<!-- Navbar -->
+
+			<div class="header">
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<a class="navbar-brand" href="#"><img src="images/unfrogettableLogo.png" alt="Logga"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item ">
+								<a class="nav-link" href="index.html"><i class="fas fa-home"></i> Hem<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle active" href="arter.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fas fa-frog"></i> Arter
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="arter.html">Visa alla arter</a>
+									<a class="dropdown-item" href="korallfingergrodor.html">Korallfingergrodor</a>
+									<a class="dropdown-item" href="#">Orientaliska klockgrodor</a>
+									<a class="dropdown-item" href="#">Pilgiftsgrodor</a>
+									<a class="dropdown-item" href="#">Åkergroda</a>
+									<a class="dropdown-item" href="#">Lövgroda</a>
+									<a class="dropdown-item" href="#">Gölgroda</a>
+								</div>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="medlem.html"><i class="far fa-envelope"></i> Kontakt</a>
+							</li>
+
+						</ul>
+					</div>
+				</nav>
+				<div class="medlem-login">
+					<form class=" form-inline my-2 my-lg-0">
+						<img src="images/profilepic.png" class="medlem-padd" alt="Profil Bild">
+						<a class="btn btn-outline-light medlem-padd" href="medlem.html" role="button">Logga in</a>
+						<a class="btn btn-outline-light medlem-padd" href="medlem.html" role="button">Bli medlem</a>
+					</form>
+				</div>
+			</div>
+			<!-- Titel -->
+
+			<div class="arter-slogan">
+				<h1>Arter</h1>
+			</div>
+		</div>
+
+	</section>
+
+	<section id="lista">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 arter-card">
+					<div class="card mb">
+						<img class="card-img-top" src="images/korallfingergrodorCard.png" alt="Korallfingergrodor">
+						<div class="card-body mb">
+							<h5 class="card-title">Korallfingergrodor</h5>
+							<p class="card-text">Korallfingergroda är en art i familjen lövgrodor som naturligt förekommer i Australien och på Nya Guinea. Arten beskrevs vetenskapligt första gången år 1790 av den engelske kirurgen John White.</p>
+							<button type="button" class="btn btn-outline-dark mb"><i class="fas fa-frog"></i> Läs mer..</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 arter-card">
+					<div class="card mb">
+						<img class="card-img-top" src="images/orientaliskaKlockgrodorCard.jpg" alt="Orientaliska klockgrodor">
+						<div class="card-body mb">
+							<h5 class="card-title">Orientaliska klockgrodor</h5>
+							<p class="card-text">Orientalisk klockgroda är ett groddjur av familjen Bombinatoridae. Den orientaliska klockgrodan är en av de 6 arter som finns i släktet Bombina. Arten är åtminstone 5,4 miljoner år gammal, troligtvis äldre.</p>
+							<button type="button" class="btn btn-outline-dark mb"><i class="fas fa-frog"></i> Läs mer..</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 arter-card">
+					<div class="card mb">
+						<img class="card-img-top" src="images/pilgiftsgrodorCard.jpg" alt="Pilgiftsgrodor">
+						<div class="card-body mb">
+							<h5 class="card-title">Pilgiftsgrodor</h5>
+							<p class="card-text">Pilgiftsgrodor, giftgrodor eller ibland dendrobatider är en grupp groddjur som tillhör familjen Dendrobatidae. Långt ifrån alla pilgiftsgrodor är giftiga och ännu färre används för produktion av pilgift.</p>
+							<button type="button" class="btn btn-outline-dark mb"><i class="fas fa-frog"></i> Läs mer..</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 arter-card">
+					<div class="card mb">
+						<img class="card-img-top" src="images/akergrodaCard.jpg" alt="Åkergroda">
+						<div class="card-body mb">
+							<h5 class="card-title">Åkergroda</h5>
+							<p class="card-text">Åkergrodan är en kraftigt byggd groda med kilformad kropp. Längden är mellan 3,5 och 7,5 cm. Den är en så kallad "brun groda" med en kroppsfärg i varierande, brun ton.</p>
+							<button type="button" class="btn btn-outline-dark mb"><i class="fas fa-frog"></i> Läs mer..</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 arter-card">
+					<div class="card mb">
+						<img class="card-img-top" src="images/lovgrodaCard.jpg" alt="Lövgroda">
+						<div class="card-body mb">
+							<h5 class="card-title">Lövgroda</h5>
+							<p class="card-text">Den är gräsgrön på ovansidan, med ett svart, ofta gulkantat streck på sidorna, på undersidan vitaktig. Hannen har brun strupe, som kan blåsas upp till en stor boll. Kroppslängden kan uppgå till 5 cm.</p>
+							<button type="button" class="btn btn-outline-dark mb"><i class="fas fa-frog"></i> Läs mer..</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 arter-card">
+					<div class="card mb">
+						<img class="card-img-top" src="images/golgrodaCard.jpg" alt="Gölgroda">
+						<div class="card-body mb">
+							<h5 class="card-title">Gölgroda</h5>
+							<p class="card-text">Gölgrodan är 50 till 90 mm stor. Den är mycket lik sin släkting sjögroda från vilken den kan skiljas genom sin större mellanfotsknöl. Hanen är grönbrun till gulbrun, med vita strupsäckar.</p>
+							<button type="button" class="btn btn-outline-dark mb"><i class="fas fa-frog"></i> Läs mer..</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="medlem">
+
+		<div class="jumbotron">
+			<h1><i class="fas fa-frog"></i> Bli medlem</h1>
+			<p>Bli medlem nu för att snabbt och enkelt få reda på mer saker om grodor.</p>
+			<a class="btn btn-outline-light btn-lg" href="#" role="button">Bli medlem</a>
+		</div>
+	</section>
+	<section id="footer">
+		<footer>
+			<i class="footer-icons fab fa-twitter"></i>
+			<i class="footer-icons fab fa-facebook-f"></i>
+			<i class="footer-icons fab fa-instagram"></i>
+			<i class="footer-icons fas fa-envelope"></i>
+			<p class="footer-p">©Copyright 2020 Unfrogettable</p>
+		</footer>
+	</section>
+	<script src="main.js"></script>
+</body>
+
+</html>
