@@ -278,29 +278,3 @@ p {
 
 
 }
-
-@media (max-width:1024px) {
-	p {
-		font-size: 1.2rem;
-	}
-
-	h1 {
-		font-size: 3.5rem;
-	}
-
-	h2 {
-		font-size: 3rem;
-	}
-
-	h3 {
-		font-size: 2.5rem;
-	}
-
-	h5 {
-		font-size: 2rem;
-	}
-
-	.medlem-login {
-		margin-left: 0%;
-	}
-}
