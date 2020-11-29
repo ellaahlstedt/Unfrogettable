@@ -274,6 +274,28 @@ p {
 	.navbar-brand img {
 		display: none;
 	}
+	.medlem-login {
+		width: 98%;
+	}
+	p {
+		font-size: 2rem;
+	}
+
+	h1 {
+		font-size: 3.5rem;
+	}
+
+	h2 {
+		font-size: 3rem;
+	}
+
+	h3 {
+		font-size: 2.5rem;
+	}
+
+	h5 {
+		font-size: 2.25rem;
+	}
 
 
 
